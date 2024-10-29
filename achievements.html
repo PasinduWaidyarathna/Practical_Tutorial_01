@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work Page</title>
+<link rel="stylesheet" href="style.css">
+<style>
+main {
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2em 0;
+}
+.work-section {
+background: #fff;
+padding: 2em;
+margin: 1em;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 1200px;
+width: 100%;
+}
+.work-section h2 {
+text-align: center;
+color: #333;
+margin-bottom: 1.5em;
+}
+.project-row {
+display: flex;
+flex-wrap: wrap;
+gap: 1.5em;
+}
+.project {
+background: #f9f9f9;
+padding: 1.5em;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+flex: 1;
+min-width: 250px;
+max-width: calc(33.333% - 1.5em);
+box-sizing: border-box;
+}
+.project h3 {
+color: #333;
+}
+.project p {
+color: #555;
+line-height: 1.6;
+padding-top:  15px;
+padding-bottom:  15px;
+}
+.project a {
+color: #007bff;
+text-decoration: none;
+}
+.project a:hover {
+text-decoration: underline;
+}
+main {
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2em 0;
+}
+.achievements-section {
+background: #fff;
+padding: 2em;
+margin: 1em;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 1200px;
+width: 100%;
+}
+.achievements-section h2 {
+text-align: center;
+color: #333;
+margin-bottom: 1.5em;
+}
+.achievement-row {
+display: flex;
+flex-wrap: wrap;
+gap: 1.5em;
+}
+.achievement {
+background: #f9f9f9;
+padding: 1.5em;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+flex: 1;
+min-width: 250px;
+max-width: calc(33.333% - 1.5em);
+box-sizing: border-box;
+text-align: center;
+}
+.achievement img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+margin-bottom: 1em;
+}
+.achievement h3 {
+color: #333;
+margin-bottom: 0.5em;
+}
+.achievement a {
+color: #007bff;
+text-decoration: none;
+}
+.achievement a:hover {
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="personal-blog">
+<h2>Personal Blog</h2>
+</div>       
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="achievements.html">Projects & Achievements</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="work-section">
+<h2>My Projects</h2>
+<div class="project-row">
+<div class="project">
+<h3>Tomato disease detection robot</h3>
+<p>Innovative CNN model for tomato disease detection. Rapidly identifies and diagnoses common plant ailments, enhancing crop management. High-accuracy system streamlines agricultural monitoring, potentially boosting yields and reducing losses.</p>
+<a href="https://github.com/PasinduWaidyarathna/Tomato-Disease-Detection" target="_blank">View on GitHub</a>
+</div>
+<div class="project">
+<h3>Face recognition based door lock system</h3>
+<p>My 1st-year final electronic project. Developed an Face recognition based door lock system for Digital Electronics Lab</p>
+<a href="https://github.com/PasinduWaidyarathna/face-recognition-Door-Lock-System-Using-Arduino-and-python" target="_blank">View on GitHub</a>
+</div>
+<div class="project">
+<h3>English to Sinhala translation system</h3>
+<p>Developed a Transformer-based neural network for English to Sinhala translation.Demonstrates skills in NLP, deep learning, and practical application of advanced neural networks for machine translation.</p>
+<a href="https://github.com/PasinduWaidyarathna/Deep-Learning-Mini-Project-03" target="_blank">View on GitHub</a>
+</div>
+</div>
+</section>
+</main>
+<main>
+    <section class="achievements-section">
+    <h2>My Achievements</h2>
+    <div class="achievement-row">
+    <div class="achievement">
+    <img src="../images/frontEnd.jpeg" alt="Front End Development">
+    <h3>Introduction to Front-End Development</h3>
+    <a href="https://www.coursera.org/account/accomplishments/records/L7J3N3FNH966" target="_blank">View Credential</a>
+    </div>
+    <div class="achievement">
+    <img src="../images/javaScript.jpeg" alt="JavaScript Programming">
+    <h3>Programming with JavaScript</h3>
+    <a href="https://www.coursera.org/account/accomplishments/records/22Q2DYG54Z75" target="_blank">View Credential</a>
+    </div>
+    <div class="achievement">
+    <img src="../images/sliitML.jpg" alt="SLIIT ML Stage 2">
+    <h3>AI/ML Engineer - Stage 2</h3>
+    <a href="https://code.sliit.org/certificates/u7sre5twyv" target="_blank">View Credential</a>
+    </div>
+    </div>
+    </section>
+    </main>
+</body>
+</html>
